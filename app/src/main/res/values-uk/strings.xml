@@ -6,4 +6,7 @@
     <string name="datum">Дата</string>
     <string name="problembeschreibung">Опис проблеми</string>
     <string name="servicetechniker">Сервісний технік</string>
+    <string name="arbeiten">Робота</string>
+    <string name="material">Матеріал</string>
+    <string name="weiter">Далі</string>
 </resources>

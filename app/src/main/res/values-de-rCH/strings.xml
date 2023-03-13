@@ -6,4 +6,7 @@
     <string name="datum">Datum</string>
     <string name="servicetechniker">Servicetechniker</string>
     <string name="problembeschreibung">Problembeschreibung</string>
+    <string name="arbeiten">Arbeiten</string>
+    <string name="material">Material</string>
+    <string name="weiter">Weiter</string>
 </resources>

@@ -8,7 +8,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import org.jetbrains.annotations.NotNull;
@@ -27,4 +29,9 @@ public class MainActivity extends AppCompatActivity {
 
         Log.d(LOGTAG, "App gestartet");
     }
+
+    public void switchLayout1 (View v){
+        startActivity(new Intent(MainActivity.this, Layout1.class));
+    }
+
 }
