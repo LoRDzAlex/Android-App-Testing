@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">M335 IFZ2126</string>
+    <string name="serviceauftragsnummer">Номер сервісного замовлення</string>
+    <string name="kundennummer">Номер клієнта</string>
+    <string name="datum">Дата</string>
+    <string name="problembeschreibung">Опис проблеми</string>
+    <string name="servicetechniker">Сервісний технік</string>
+</resources>

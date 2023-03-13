@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">M335 IFZ2126</string>
+    <string name="serviceauftragsnummer">Service order number</string>
+    <string name="kundennummer">Customer number</string>
+    <string name="datum">Date</string>
+    <string name="problembeschreibung">Problem description</string>
+    <string name="servicetechniker">Service Technician</string>
+</resources>
