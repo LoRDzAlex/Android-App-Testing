@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E8E8E8"
+    tools:context=".Layout1">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_primary"
+        android:backgroundTint="#3F51B5"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="Serviceauftrag" />
+
+    <LinearLayout
+        android:layout_width="371dp"
+        android:layout_height="676dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialToolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Serviceauftragsnummer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Serviceauftragsnummer"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editAuftrag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Kundennummer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kundennummer"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editNummer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Datum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Datum"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editDatum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Problembeschreibung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Problembeschreibung"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editProblem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Servicetechniker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Servicetechniker"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editService"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#8C8B8B" />
+
+            <Button
+                android:id="@+id/Arbeiten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C6C5C5"
+                android:shadowColor="#000000"
+                android:shadowRadius="1"
+                android:text="Arbeiten"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/Material"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C6C5C5"
+                android:shadowColor="#000000"
+                android:shadowRadius="1"
+                android:text="Material"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/Weiter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C6C5C5"
+                android:shadowColor="#000000"
+                android:shadowRadius="1"
+                android:text="Weiter"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
